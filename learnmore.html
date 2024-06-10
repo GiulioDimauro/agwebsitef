@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AG FRONZONI WEBSITE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div class="wrapper">
+        <div class="header-overlay"><span>AGFronzoniarchive</span></div>
+        <header>
+            <nav class="ex">
+                <ul class="left-nav">
+                    <li><a href="index.html">AG FRONZONI WEBSITE</a></li>
+                    <li><a href="history.html">History</a></li>
+                    <li><a href="highlights.html">Highlights</a></li>
+                </ul>
+                <b><a href="learnmore.html" class="learn-more">Learn more</a></b>
+            </nav>
+        </header>
+
+<div class="esteticatitolo">
+<h1>
+    Come AG Fronzoni ha creato
+ l’estetica di oggi 
+</h1>
+</div>
+<div class="esteticatesto">
+    <p>
+        Possiamo porre un minimalismo grafico di AG Fronzoni e l'estetica streetwear di Virgil Abloh, evidenziando le influenze culturali e stilistiche tra i due. L'attrazione di Abloh per l'essenziale, espressa attraverso il marchio Off-White, riflette la filosofia minimalista di Fronzoni, caratterizzata dall'uso di bianco e nero, forme geometriche pure e una funzionalità rigorosa. Questa connessione è particolarmente evidente nelle righe diagonali di Off-White, che Abloh stesso riconosce come ispirate ai tagli di Lucio Fontana, artista con cui Fronzoni ha collaborato.
+    </p>
+</div>
+
+<div class="img49">
+    <img src="img/img49.jpg" alt="">
+</div>
+
+<div class="esteticatesto">
+    <p>
+        Abloh, figura centrale nello streetwear contemporaneo, è noto per il suo approccio "multi hyphenate", che combina moda, musica e design, e per l'uso ironico e postmoderno delle citazioni. Tuttavia, l’accusa di mancanza di riconoscimento delle sue fonti di ispirazione, sollevata dal profilo Instagram Diet Prada, mette in luce una problematica comune nel panorama culturale odierno: l'appropriazione senza attribuzione.
+    </p>
+    <p>
+        AG Fronzoni rappresenta un punto di riferimento fondamentale nel design minimalista internazionale, paragonabile a figure come Enzo Mari ed Ettore Sottsass. La sua filosofia si basa su un razionalismo e funzionalismo rigorosi, influenzati dal Bauhaus e dal principio del "less is more" di Ludwig Mies van der Rohe. Fronzoni ha sempre considerato il design come un veicolo educativo e democratico, come evidenziato dalla sua attività didattica e dalla direzione della rivista Casabella.
+    </p>
+</div>
+
+<div class="containerlearnmore">
+    <div class="img54">
+    <img src="img/img54.jpg" alt="">
+    </div>
+
+    <div class="img50">
+    <img src="img/img50.jpg" alt="">
+    </div>
+
+    <div class="img51">
+    <img src="img/img51.jpg" alt="">
+</div>
+
+</div>
+<div class="testocontinuo1">
+    <p>
+        La somiglianza tra alcune creazioni di Off-White e i lavori di Fronzoni, come il poster per una mostra di Fontana nel 1966, solleva interrogativi sull'originalità e sull'etica nel design contemporaneo. Fronzoni, con il suo approccio intransigente e la sua dedizione alla purezza formale, ha cercato di educare attraverso il design, mirando a una comunicazione chiara e priva di fronzoli. Questo contrasta con l'estetica derivativa di Abloh, che abbraccia l'idea postmoderna secondo cui tutto è citazione.
+    </p>
+    <p>
+        L’influenza di Fronzoni su Abloh e altri designer contemporanei è evidente, ma la mancanza di riconoscimento esplicito da parte di Abloh solleva questioni sull'integrità creativa e sulla responsabilità culturale. L'approccio di Fronzoni alla grafica e al design, basato su principi di rigore e funzionalità, rappresenta una lezione preziosa in un'epoca in cui l'originalità spesso cede il passo alla ripetizione e alla citazione.
+In sintesi, mentre Abloh ha saputo reinterpretare e adattare l'estetica minimalista di Fronzoni al linguaggio dello streetwear contemporaneo, la questione del riconoscimento e della trasparenza rimane un tema cruciale. Il lavoro di Fronzoni continua a influenzare e ispirare, ribadendo l'importanza di una pratica del design che sia non solo estetica, ma anche etica.
+    </p>
+</div>
+
+<div class="img52">
+    <img src="img/img52.jpg" alt="">
+</div>
+
+<div class="citazione">
+    <h2>
+        “Quando la creatività si fonde con le questioni globali, credo che si possa unire il mondo.”
+    </h2>
+</div>
+
+<div class="img53">
+<img src="img/img53.jpg" alt="">
+</div>
+
+
+        <footer>
+            <p>&copy; 2024 AG Fronzoni Studios. All rights reserved.</p>
+            <p>link: <a href="https://www.abacatania.it">https://www.abacatania.it</a></p>
+            <p>Time: <span id="live-time"></span></p>
+            <p>Page Dimensions: <span id="page-dimensions"></span></p>
+            <p>Device: <span id="device-info"></span></p>
+        </footer>
+    </div>
+</body>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('live-time').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+
+        function updatePageDimensions() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            document.getElementById('page-dimensions').textContent = `${width}px x ${height}px`;
+        }
+
+        function updateDeviceInfo() {
+            const device = window.innerWidth <= 768 ? 'Mobile' : 'Desktop';
+            document.getElementById('device-info').textContent = device;
+        }
+
+        updateTime();
+        updatePageDimensions();
+        updateDeviceInfo();
+
+        window.addEventListener('resize', function() {
+            updatePageDimensions();
+            updateDeviceInfo();
+        });
+
+        setInterval(updateTime, 1000);
+    </script>
+</html>

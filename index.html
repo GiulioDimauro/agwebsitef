@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AG FRONZONI WEBSITE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+        <div class="header-overlay"><span>AGFronzoniarchive</span></div>
+        <div class="title">
+            <a href="index.html">AG FRONZONI WEBSITE</a>
+            <p> Explore the <a href="history.html">History</a>
+                and <a href="highlights.html">Highlights</a> of AG Fronzoni's work and
+                <a href="learnmore.html">Learn more</a> about his impactful design legacy</p>
+        </div>
+        <div class="wrapper"></div>
+        <footer>
+            <p>&copy; 2024 AG Fronzoni Studios. All rights reserved.</p>
+            <p>link: <a href="https://www.abacatania.it">https://www.abacatania.it</a></p>
+            <p>Time: <span id="live-time"></span></p>
+            <p>Page Dimensions: <span id="page-dimensions"></span></p>
+            <p>Device: <span id="device-info"></span></p>
+        </footer>
+    </div>
+</body>
+<script>
+    function updateTime() {
+        const now = new Date();
+        const hours = now.getHours().toString().padStart(2, '0');
+        const minutes = now.getMinutes().toString().padStart(2, '0');
+        const seconds = now.getSeconds().toString().padStart(2, '0');
+        document.getElementById('live-time').textContent = `${hours}:${minutes}:${seconds}`;
+    }
+
+        function updatePageDimensions() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            document.getElementById('page-dimensions').textContent = `${width}px x ${height}px`;
+        }
+    
+        function updateDeviceInfo() {
+            const device = window.innerWidth <= 768 ? 'Mobile' : 'Desktop';
+            document.getElementById('device-info').textContent = device;
+        }
+    
+        updateTime();
+        updatePageDimensions();
+        updateDeviceInfo();
+    
+        window.addEventListener('resize', function() {
+            updatePageDimensions();
+            updateDeviceInfo();
+        });
+    
+        setInterval(updateTime, 1000);
+    </script>
+</html>

@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AG FRONZONI WEBSITE</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="body">
+    <div class="header-overlay"><span>AGFronzoniarchive</span></div> 
+    <header>
+        <nav class="ex">
+            <ul class="left-nav">
+                <li><a href="index.html">AG FRONZONI WEBSITE</a></li>
+                <li><a href="history.html">History</a></li>
+                <li><b><a href="highlights.html">Highlights</a></b></li>
+            </ul>
+            <a href="learnmore.html" class="learn-more">Learn more</a>
+        </nav>
+    </header>
+    <div class="titlehig">
+        <p><b>AG Fronzoni Studios</b></p>
+        <p>"description Feweth signs a</p>
+        <p>revolution hidden behind a</p>
+        <p>utopia"</p>
+    </div>
+    <div class="timeline">
+        <li><a href="all.html">All</a></li>
+        <li><a href="1954.html">1954</a></li>
+        <li><a href="1964.html">1964</a></li>
+        <li><a href="1965.html">1965</a></li>
+        <li><a href="1966.html">1966</a></li>
+        <li><a href="1967.html">1967</a></li>
+        <b><li><a href="1968.html">1968</a></li></b>
+        <li><a href="1969.html">1969</a></li>
+        <li><a href="1971.html">1971</a></li>
+        <li><a href="1976.html">1976</a></li>
+        <li><a href="1979.html">1979</a></li>
+        <li><a href="1980.html">1980</a></li>
+        <li><a href="1981.html">1981</a></li>
+        <li><a href="1984.html">1984</a></li>
+        <li><a href="1990.html">1990</a></li>
+        <li><a href="1991.html">1991</a></li>
+        <li><a href="1993.html">1993</a></li>
+        <li><a href="1994.html">1994</a></li>
+        <li><a href="1995.html">1995</a></li>
+    </div>
+    <div class="sezione1968">
+    <div class="img1968n1">
+        <img src="img/1968n1.jpg" alt="">
+        <p>
+            1968 AG Fronzoni manifesto Hans Glattfelder 
+            collezione del Museum of Modern Art di New York
+        </p>
+    </div>
+<div class="img1968n2">
+    <img src="img/1968n2.jpg" alt="">
+    <p>
+        1968 AG Fronzoni manifesto per la mosta su Gianfranco Zappettini 
+        per la galleria Il Cacallino di Venezia
+    </p>
+</div>
+</div>
+<div class="sezione1968_2">
+<div class="img1968n3">
+    <img src="img/1968n3.jpg" alt="">
+    <p>
+        1968 AG Fronzoni manifesto per la mostra di Sonia Delaunay per la Galleria Nieuburg di Milano
+    </p>
+</div>
+<div class="img1968n4">
+    <img src="img/1968n4.jpg" alt="">
+    <p>
+        1968 AG Fronzoni manifesto per la mostra su  Fontana+Vigo per la galleria la Polena di Genova
+    </p>
+</div>
+</div>
+
+<div class="img1968n5">
+    <img src="img/1968n5.jpg" alt="">
+</div>
+
+<div class="imgventunotesto">
+    <p>
+        1968 AG Fronzoni manifesto per la mostra Omaggio a Luc Peire Mauro Reggiani Gianfranco Zappetini per la galleria  la Polena di Genova
+    </p>
+</div>
+</div>
+</body>
+    <footer>
+        <p>&copy; 2024 AG Fronzoni Studios. All rights reserved.</p>
+        <p>link: <a href="abact.it">https://www.abacatania.it</a></p>
+        <p>Time: <span id="live-time"></span></p>
+        <p>Page Dimensions: <span id="page-dimensions"></span></p>
+        <p>Device: <span id="device-info"></span></p>
+    </footer>
+    <script>
+        function updateTime() {
+            const now = new Date();
+            const hours = now.getHours().toString().padStart(2, '0');
+            const minutes = now.getMinutes().toString().padStart(2, '0');
+            const seconds = now.getSeconds().toString().padStart(2, '0');
+            document.getElementById('live-time').textContent = `${hours}:${minutes}:${seconds}`;
+        }
+    
+        function updatePageDimensions() {
+            const width = window.innerWidth;
+            const height = window.innerHeight;
+            document.getElementById('page-dimensions').textContent = `${width}px x ${height}px`;
+        }
+    
+        function updateDeviceInfo() {
+            const device = window.innerWidth <= 768 ? 'Mobile' : 'Desktop';
+            document.getElementById('device-info').textContent = device;
+        }
+    
+        updateTime();
+        updatePageDimensions();
+        updateDeviceInfo();
+    
+        window.addEventListener('resize', function() {
+            updatePageDimensions();
+            updateDeviceInfo();
+        });
+    
+        setInterval(updateTime, 1000);
+    </script>
+</html>
