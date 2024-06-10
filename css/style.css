@@ -12,7 +12,6 @@ body {
     height: 100%;
     margin: 0;
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="white" stroke-width="5" opacity="0.5"/><text x="50%" y="50%" alignment-baseline="central" text-anchor="middle" font-size="18" font-family="Arial" fill="white" opacity="0.5">Discovery</text></svg>') 32 32, auto;
-
 }
 
 .wrapper {
