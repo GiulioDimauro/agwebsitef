@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<title>Pagina di Caricamento</title>
+<style>
+  body {
+    font-family: sans-serif;
+    background-color: #000;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #fff;
+  }
+  
+  .loading-text {
+    font-size: 150px;
+    font-weight: lighter;
+  }
+</style>
+</head>
+<body>
+<div class="loading-text" id="loading-text">0/ 100</div>
+
+<script>
+  let count = 0;
+  const incrementCount = () => {
+    count++;
+    document.getElementById('loading-text').textContent = `${count}/ 100`;
+    if (count < 100) {
+      setTimeout(incrementCount, 10); // Modifica la velocità dello scorrimento regolando il valore di setTimeout
+    } else {
+      setTimeout(() => {
+        window.location.href = 'index.html'; // Cambia 'index.html' con il percorso della tua pagina "index"
+      }, 1000);
+    }
+  }
+  incrementCount();
+</script>
+</body>
+</html>
