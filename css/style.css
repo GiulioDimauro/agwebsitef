@@ -22,15 +22,16 @@ body {
 }
 
 header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    padding: 5px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        padding: 10px 20px; /* Increased padding for more separation */
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-sizing: border-box; /* Ensures padding is included in the total width */
+    }
 
 .header-overlay {
     position: sticky;
@@ -94,7 +95,7 @@ nav.ex {
 
 .title a {
 color: white;
-text-decoration: none;
+text-decoration: underline;
 }
 
 .title a:hover {
@@ -107,8 +108,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     font-weight: lighter;
-    padding: 10px 0;
+    padding: 10px 20px; /* Increased padding for more separation */
     background-color: black;
+    box-sizing: border-box; /* Ensures padding is included in the total width */
 }
 
 footer a {
@@ -120,6 +122,7 @@ footer a {
 footer a:hover {
     text-decoration: underline;
 }
+
 
 .titlehig {
     max-width: 600px;
