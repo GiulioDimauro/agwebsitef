@@ -9,6 +9,7 @@ body {
     background-color: black;
     color: white;
     font-family: 'Inter', sans-serif;
+    line-height: 1,5;
     height: 100%;
     margin: 0;
     cursor: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" height="64" width="64" viewBox="0 0 100 100"><circle cx="50" cy="50" r="45" fill="none" stroke="white" stroke-width="5" opacity="0.5"/><text x="50%" y="50%" alignment-baseline="central" text-anchor="middle" font-size="18" font-family="Arial" fill="white" opacity="0.5">Discovery</text></svg>') 32 32, auto;
@@ -886,4 +887,82 @@ width: 100%;
 }
 .img47{
     padding-top: 3%;
+}
+
+
+
+
+/* Media query per dispositivi mobili */
+@media screen and (max-width: 768px) {
+    .title {
+        font-size: 36px; /* Riduce la dimensione del font per i dispositivi mobili */
+        padding-top: 20px; /* Riduce il padding in alto */
+    }
+
+    .header-overlay span {
+        font-size: 18px; /* Riduce la dimensione del font dell'overlay dell'intestazione */
+    }
+
+    .left-nav {
+        flex-direction: column;
+        gap: 5px; /* Riduce lo spazio tra gli elementi di navigazione */
+    }
+
+    .left-nav li a {
+        font-size: 12px; /* Riduce la dimensione del font dei link di navigazione */
+    }
+
+    .timeline {
+        flex-direction: column; /* Dispone gli elementi della timeline in colonna */
+        text-align: left;
+    }
+
+    .testohistoryalto h1,
+    .titlehig,
+    .trasgrediscotitolo,
+    .lascuoladellessenziale,
+    .esteticatitolo {
+        font-size: 24px; /* Riduce la dimensione del font per i titoli */
+    }
+
+    .testohistorycentro p,
+    .trasgrediscotesto p,
+    .designertesto p,
+    .lascuoladellessenzialetesto p,
+    .esteticatesto p,
+    .testocontinuo1 {
+        font-size: 14px; /* Riduce la dimensione del font per il testo */
+    }
+
+    .container,
+    .containerlearnmore,
+    .containar2,
+    .containar3,
+    .primasezione {
+        flex-direction: column; /* Dispone gli elementi in colonna */
+        align-items: center; /* Centra gli elementi */
+    }
+
+    .container div,
+    .containerlearnmore div,
+    .containar2 div,
+    .containar3 div,
+    .primasezione div {
+        margin: 5px 0; /* Aggiunge margine tra gli elementi */
+    }
+
+    .container img,
+    .containerlearnmore img,
+    .containar2 img,
+    .containar3 img,
+    .primasezione img {
+        width: 100%; /* Imposta la larghezza delle immagini al 100% */
+        height: auto; /* Mantiene le proporzioni delle immagini */
+        margin-top: 10px; /* Aggiunge margine superiore */
+    }
+
+    footer {
+        flex-direction: column; /* Dispone gli elementi del footer in colonna */
+        align-items: center; /* Centra gli elementi del footer */
+    }
 }
