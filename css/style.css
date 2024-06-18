@@ -204,21 +204,18 @@ p {
 
 .container {
     display: flex;
-    justify-content: space-between; /* Spazio uniforme tra le immagini */
     width: 100%;
     padding-top: 3%;
+    gap: 5px;
 
 }
 
 .container div {
     flex-grow: 1;
-    margin: 0 5px; /* Spazio tra i contenitori delle immagini */
 }
 
 .container img {
     width: 100%;
-    height: auto;
-    display: block; /* Rimuove lo spazio inferiore sotto l'immagine */
 }
 
 
