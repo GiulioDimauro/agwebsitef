@@ -890,7 +890,7 @@ width: 100%;
 }
 
 /* Media query per dispositivi mobili */
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 998px) {
     body {
         font-size: 16px; /* Aumenta la dimensione del font di base */
         line-height: 1.6; /* Aumenta l'interlinea per una migliore leggibilità */
