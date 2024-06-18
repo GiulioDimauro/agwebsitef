@@ -888,3 +888,227 @@ width: 100%;
 .img47{
     padding-top: 3%;
 }
+
+/* Media query per dispositivi mobili */
+@media screen and (max-width: 900px) {
+    body {
+        font-size: 16px; /* Aumenta la dimensione del font di base */
+        line-height: 1.6; /* Aumenta l'interlinea per una migliore leggibilità */
+        padding-top: 70px; /* Aggiunge spazio in cima per il nav fisso */
+    }
+
+    header {
+        position: fixed; /* Fissa il nav nella parte superiore */
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000; /* Assicura che il nav sia sopra altri contenuti */
+        padding: 10px 20px; /* Modifica il padding per adattarsi ai dispositivi mobili */
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Aggiunge un'ombra per il nav */
+        background: transparent; /* Rimuove il fondo bianco */
+    }
+
+    .header-overlay span {
+        font-size: 16px; /* Riduce la dimensione del font dell'overlay dell'intestazione */
+    }
+
+    .left-nav {
+        align-items: center; /* Centra gli elementi di navigazione */
+        gap: 10px; /* Aumenta lo spazio tra gli elementi di navigazione */
+    }
+
+    .left-nav li {
+        display: block; /* Assicura che ogni elemento di navigazione occupi una nuova riga */
+    }
+
+    .left-nav li a {
+        font-size: 14px; /* Riduce leggermente la dimensione del font dei link di navigazione */
+    }
+
+    .title {
+        font-size: 40px; /* Riduce la dimensione del font per i titoli */
+        padding-top: 100px; /* Aumenta il padding in alto per evitare sovrapposizioni */
+        text-align: center; /* Centra il testo */
+    }
+
+    .title p {
+        font-size: 25px; /* Riduce la dimensione del font per i paragrafi sotto i titoli */
+    }
+
+    .timeline {
+        display: flex;
+        flex-direction: column; /* Dispone gli elementi della timeline in colonna */
+        padding: 20px; /* Aggiunge padding per una migliore leggibilità */
+        gap: 20px; /* Aumenta lo spazio tra gli elementi della timeline */
+    }
+
+    .timeline-item {
+        display: flex;
+        flex-direction: column; /* Dispone gli elementi della timeline in colonna */
+        align-items: center; /* Centra gli elementi */
+        text-align: center; /* Centra il testo */
+        gap: 10px; /* Aumenta lo spazio tra i componenti dell'elemento */
+        padding: 10px; /* Aggiunge padding intorno ad ogni elemento */
+        border: 1px solid #ddd; /* Aggiunge un bordo per separare visivamente gli elementi */
+        border-radius: 8px; /* Arrotonda gli angoli degli elementi */
+    }
+
+    .timeline-item img {
+        width: 80%; /* Riduce la larghezza delle immagini */
+        height: auto; /* Mantiene le proporzioni delle immagini */
+        margin-top: 10px; /* Aggiunge margine superiore */
+    }
+
+    .timeline-item h2 {
+        font-size: 20px; /* Riduce la dimensione del font per i titoli degli elementi */
+        margin: 10px 0; /* Aggiunge margine sopra e sotto i titoli */
+    }
+
+    .timeline-item p {
+        font-size: 14px; /* Riduce la dimensione del font per il testo degli elementi */
+        margin: 10px 0; /* Aggiunge margine sopra e sotto il testo */
+        padding: 0 10px; /* Aggiunge padding laterale per evitare sovrapposizioni */
+    }
+
+    .testohistoryalto h1,
+    .titlehig,
+    .trasgrediscotitolo,
+    .lascuoladellessenziale,
+    .esteticatitolo {
+        font-size: 24px; /* Riduce la dimensione del font per i titoli */
+        text-align: center; /* Centra il testo */
+        padding: 0 10px; /* Aggiunge padding laterale per evitare sovrapposizioni */
+    }
+
+    .testohistorycentro p,
+    .trasgrediscotesto p,
+    .designertesto p,
+    .lascuoladellessenzialetesto p,
+    .esteticatesto p,
+    .testocontinuo1 {
+        font-size: 14px; /* Riduce la dimensione del font per il testo */
+        padding: 0 10px; /* Aggiunge padding laterale per evitare sovrapposizioni */
+    }
+
+    .container,
+    .containerlearnmore,
+    .containar2,
+    .containar3,
+    .primasezione,
+    .secondasezione,
+    .terzasezione,
+    .quartasezione,
+    .quintasezione,
+    .sestasezione,
+    .settimasezione,
+    .ottavasezione,
+    .nonasezione,
+    .decimasezione,
+    .undicesimasezione,
+    .dodicesimasez,
+    .tredicesimasez,
+    .quattordicesimasez,
+    .quindicesimasez,
+    .sezione1967,
+    .sezione1968,
+    .sezione1968_2,
+    .sezione1969,
+    .sezione1969n2,
+    .sezione1976,
+    .sezione1979,
+    .sezione1979n2,
+    .sezione1979n3,
+    .sezione1980,
+    .sezione1980n2,
+    .sezione1981,
+    .sezione1990,
+    .sezione1994 {
+        flex-direction: column; /* Dispone gli elementi in colonna */
+        align-items: center; /* Centra gli elementi */
+        padding: 0 10px; /* Aggiunge padding laterale per evitare sovrapposizioni */
+    }
+
+    .container div,
+    .containerlearnmore div,
+    .containar2 div,
+    .containar3 div,
+    .primasezione div,
+    .secondasezione div,
+    .terzasezione div,
+    .quartasezione div,
+    .quintasezione div,
+    .sestasezione div,
+    .settimasezione div,
+    .ottavasezione div,
+    .nonasezione div,
+    .decimasezione div,
+    .undicesimasezione div,
+    .dodicesimasez div,
+    .tredicesimasez div,
+    .quattordicesimasez div,
+    .quindicesimasez div,
+    .sezione1967 div,
+    .sezione1968 div,
+    .sezione1968_2 div,
+    .sezione1969 div,
+    .sezione1969n2 div,
+    .sezione1976 div,
+    .sezione1979 div,
+    .sezione1979n2 div,
+    .sezione1979n3 div,
+    .sezione1980 div,
+    .sezione1980n2 div,
+    .sezione1981 div,
+    .sezione1990 div,
+    .sezione1994 div {
+        margin: 10px 0; /* Aggiunge margine tra gli elementi */
+    }
+
+    .container img,
+    .containerlearnmore img,
+    .containar2 img,
+    .containar3 img,
+    .primasezione img,
+    .secondasezione img,
+    .terzasezione img,
+    .quartasezione img,
+    .quintasezione img,
+    .sestasezione img,
+    .settimasezione img,
+    .ottavasezione img,
+    .nonasezione img,
+    .decimasezione img,
+    .undicesimasezione img,
+    .dodicesimasez img,
+    .tredicesimasez img,
+    .quattordicesimasez img,
+    .quindicesimasez img,
+    .sezione1967 img,
+    .sezione1968 img,
+    .sezione1968_2 img,
+    .sezione1969 img,
+    .sezione1969n2 img,
+    .sezione1976 img,
+    .sezione1979 img,
+    .sezione1979n2 img,
+    .sezione1979n3 img,
+    .sezione1980 img,
+    .sezione1980n2 img,
+    .sezione1981 img,
+    .sezione1990 img,
+    .sezione1994 img {
+        width: 80%; /* Riduce la larghezza delle immagini all'80% */
+        height: auto; /* Mantiene le proporzioni delle immagini */
+        margin-top: 10px; /* Aggiunge margine superiore */
+    }
+
+    footer {
+        flex-direction: column; /* Dispone gli elementi del footer in colonna */
+        align-items: center; /* Centra gli elementi del footer */
+        padding: 20px 10px; /* Modifica il padding per adattarsi ai dispositivi mobili */
+    }
+
+    footer a {
+        font-size: 14px; /* Riduce la dimensione del font dei link del footer */
+    }
+}
