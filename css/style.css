@@ -909,7 +909,7 @@ width: 100%;
     }
 
     .header-overlay span {
-        font-size: 10px; /* Riduce la dimensione del font dell'overlay dell'intestazione */
+        font-size: 8px; /* Riduce la dimensione del font dell'overlay dell'intestazione */
     }
 
     .left-nav {
