@@ -193,8 +193,6 @@ p {
 
 .agfronzoni {
     padding-left: 0%;
-    margin-left: auto;
-    margin-right: auto;
     width: 100%;
     padding-top: 3%;
 }
@@ -207,7 +205,6 @@ p {
 .container {
     display: flex;
     justify-content: space-between; /* Spazio uniforme tra le immagini */
-    align-items: flex-start;
     width: 100%;
     padding-top: 3%;
 
