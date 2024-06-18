@@ -910,10 +910,10 @@ width: 100%;
 
     .header-overlay span {
         font-size: 8px; /* Riduce la dimensione del font dell'overlay dell'intestazione */
+        color: black;
     }
 
     .left-nav {
-        flex-direction: column; 
         align-items: center; /* Centra gli elementi di navigazione */
         gap: 10px; /* Aumenta lo spazio tra gli elementi di navigazione */
     }
