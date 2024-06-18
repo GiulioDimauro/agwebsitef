@@ -913,16 +913,18 @@ width: 100%;
     }
 
     .left-nav {
+        flex-direction: column; 
         align-items: center; /* Centra gli elementi di navigazione */
         gap: 10px; /* Aumenta lo spazio tra gli elementi di navigazione */
     }
 
     .left-nav li {
-        display: block; /* Assicura che ogni elemento di navigazione occupi una nuova riga */
+        display:inline; /* Assicura che ogni elemento di navigazione occupi una nuova riga */
     }
 
     .left-nav li a {
         font-size: 14px; /* Riduce leggermente la dimensione del font dei link di navigazione */
+        padding: 10px;
     }
 
     .title {
