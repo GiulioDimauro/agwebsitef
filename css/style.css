@@ -620,6 +620,7 @@ h2 {
 
 /* Stili generali */
 .timeline-button, .timeline-menu {
+    display: none;
 }
 
 @media screen and (max-width: 998px) {
