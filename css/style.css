@@ -701,3 +701,205 @@ h2 {
 /* img anni  */
 
 
+/* Stili generali */
+.timeline-button, .timeline-menu {
+    display: none;
+}
+
+@media screen and (max-width: 998px) {
+    body {
+        font-size: 16px;
+        line-height: 1.6;
+        padding-top: 70px;
+    }
+
+    header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        z-index: 1000;
+        padding: 10px 20px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        background: transparent;
+    }
+
+    .header-overlay span {
+        font-size: 8px;
+        color: black;
+    }
+
+    .left-nav {
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+    }
+
+    .left-nav li {
+        display: inline;
+    }
+
+    .left-nav li a {
+        font-size: 14px;
+        padding: 10px;
+    }
+
+    .title {
+        font-size: 40px;
+        padding-top: 100px;
+        text-align: center;
+    }
+
+    .title p {
+        font-size: 25px;
+    }
+
+    .timeline {
+        display: none;
+    }
+
+    .timeline-button {
+        display: block;
+        margin: 20px auto;
+        padding: 10px 20px;
+        font-size: 16px;
+        background-color: #007BFF; /* Colore del bottone */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-button:hover {
+        background-color: #0056b3; /* Colore del bottone al passaggio del mouse */
+    }
+
+    .timeline-menu {
+        display: none;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        gap: 10px;
+        padding: 10px;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.8); /* Sfondo trasparente */
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .timeline-menu a {
+        text-decoration: none;
+        color: #007BFF;
+        font-weight: lighter;
+    }
+
+    .timeline-menu a:hover {
+        text-decoration: underline;
+    }
+
+    .testohistoryalto h1,
+    .titlehig,
+    .trasgrediscotitolo,
+    .lascuoladellessenziale,
+    .esteticatitolo {
+        font-size: 24px;
+        text-align: center;
+        padding: 0 10px;
+    }
+
+    .testohistorycentro p,
+    .trasgrediscotesto p,
+    .designertesto p,
+    .lascuoladellessenzialetesto p,
+    .esteticatesto p,
+    .testocontinuo1 {
+        font-size: 14px;
+        padding: 0 10px;
+    }
+
+    .container,
+    .containerlearnmore,
+    .container2,
+    .container3,
+    .primasezione,
+    .secondasezione,
+    .terzasezione,
+    .quartasezione,
+    .quintasezione,
+    .sestasezione,
+    .settimasezione,
+    .ottavasezione,
+    .nonasezione,
+    .decimasezione,
+    .undicesimasezione,
+    .dodicesimasez,
+    .tredicesimasez,
+    .quattordicesimasez,
+    .quindicesimasez {
+        flex-direction: column;
+        align-items: center;
+        padding: 0 10px;
+    }
+
+    .container div,
+    .containerlearnmore div,
+    .container2 div,
+    .container3 div,
+    .primasezione div,
+    .secondasezione div,
+    .terzasezione div,
+    .quartasezione div,
+    .quintasezione div,
+    .sestasezione div,
+    .settimasezione div,
+    .ottavasezione div,
+    .nonasezione div,
+    .decimasezione div,
+    .undicesimasezione div,
+    .dodicesimasez div,
+    .tredicesimasez div,
+    .quattordicesimasez div,
+    .quindicesimasez div {
+        margin: 10px 0;
+    }
+
+    .container img,
+    .containerlearnmore img,
+    .container2 img,
+    .container3 img,
+    .primasezione img,
+    .secondasezione img,
+    .terzasezione img,
+    .quartasezione img,
+    .quintasezione img,
+    .sestasezione img,
+    .settimasezione img,
+    .ottavasezione img,
+    .nonasezione img,
+    .decimasezione img,
+    .undicesimasezione img,
+    .dodicesimasez img,
+    .tredicesimasez img,
+    .quattordicesimasez img,
+    .quindicesimasez img {
+        width: 100%;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px;
+    }
+
+    footer a {
+        font-size: 14px;
+    }
+}
+
+/* Additional styles for timeline button and menu functionality */
+.timeline-button.active + .timeline-menu {
+    display: flex;
+}
