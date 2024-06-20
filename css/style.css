@@ -140,7 +140,7 @@ footer a:hover {
 
 .timeline {
     top: 15vw;
-   margin-top: 3%;
+    margin-top: 3%;
     left: 0;
     width: 100%;
     display: flex;
@@ -151,6 +151,8 @@ footer a:hover {
     text-align: center;
     flex: 1;
     margin: 0 top;
+    padding: 0 20px; /* Aggiunge padding a sinistra e destra per distanziare dai bordi */
+    /* margin: 0 top; Questa riga non è valida, rimuoverla */
 }
 
 .timeline li a {
@@ -164,7 +166,8 @@ h1 {
 max-width: 600px;
 margin: 0 auto;
 margin-top: 2%;
-font-size: 30pt;
+font-size: 3em;
+line-height: 1.3;
 }
 
 .testohistorycentro
@@ -172,7 +175,9 @@ p {
 max-width: 600px;
 margin: 0 auto;
 margin-top: 1%;
-font-size: 14pt;
+font-size: 1,5em ;
+line-height: 1.5;
+
 }
 
 .trasgrediscotitolo 
@@ -180,7 +185,8 @@ h2 {
 max-width: 600px;
 margin: 0 auto;
 margin-top: 2%;
-font-size: 20pt;
+font-size: 2em;
+line-height: 1.3;
 }
 
 .trasgrediscotesto 
@@ -188,23 +194,22 @@ p {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 1%;
-    font-size: 14pt;
+    font-size: 1,5em ;
+    line-height: 1.5;
 }
 
 .agfronzoni {
-    padding-left: 0%;
-    width: 100%;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
-}
-.imgdiecitesto p {
-    margin: 0;
-    padding: 0;
-    font-size: 16px;
+    border-radius: 25px;
 }
 
 .container {
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
@@ -216,11 +221,13 @@ p {
 
 .container img {
     width: 100%;
+    border-radius: 25px;
 }
 
 .container2 {
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
@@ -232,12 +239,14 @@ p {
 
 .container2 img {
     width: 100%;
+    border-radius: 25px;
 }
 
 
 .container3 {
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
@@ -249,6 +258,7 @@ p {
 
 .container3 img {
     width: 100%;
+    border-radius: 25px;
 }
 
 .designer
@@ -256,7 +266,8 @@ h2 {
     max-width: 600px;
     margin: 0 auto;
     padding-top: 3%;
-    font-size: 20pt;
+    font-size: 2em;
+    line-height: 1.3;
     }
 
 .designertesto 
@@ -264,7 +275,8 @@ p {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2%;
-    font-size: 14pt;   
+    font-size: 1,5em ;
+    line-height: 1.5;   
 }   
 
 
@@ -276,7 +288,8 @@ h1 {
     max-width: 600px;
     margin: 0 auto;
     margin-top:2% ;
-    font-size: 20pt;
+    font-size: 2em;
+    line-height: 1.3;
 }
 
 .lascuoladellessenzialetesto
@@ -284,13 +297,16 @@ p {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2%;
-    font-size: 14pt; 
+    font-size: 1,5em ;
+    line-height: 1.5;   
 } 
 
 .img9 img {
-    padding-left: 0%;
-    padding-top: 2%;
-    width: 100%;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 3%;
+    gap: 5px;
 } 
 
 .esteticatitolo
@@ -298,7 +314,8 @@ h1 {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2%;
-    font-size: 30pt;
+    font-size: 2em;
+    line-height: 1.3;
     }
 
 .esteticatesto
@@ -306,27 +323,33 @@ p {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2%;
-    font-size: 14pt;   
+    font-size: 1,5em ;
+    line-height: 1.5;    
 }
 
 .img49 img {
-    padding-left: 0%;
-    width: 100%;
-    margin-top: 2%;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 3%;
+    gap: 5px;
 } 
 
 .testocontinuo1 {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 1%;
-    font-size: 14pt; 
+    font-size: 1,5em ;
+    line-height: 1.5;
 } 
 
 
 .img52 img {
-    padding-left: 0%;
-    width: 100%;
-    margin-top: 2%; 
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 3%;
+    gap: 5px;
 } 
 
 .citazione
@@ -334,13 +357,16 @@ h2 {
     max-width: 600px;
     margin: 0 auto;
     margin-top: 2%;
-    font-size: 20pt;
+    font-size: 2em;
+    line-height: 1.3;
 }  
 
 .img53 img {
-    width: 100%;
-    margin-top: 2%;
-    padding-top: 2%;
+    display: flex;
+    max-width: 900px;
+    margin: 0 auto;
+    padding-top: 3%;
+    gap: 5px;
 }    
 
 
@@ -348,475 +374,330 @@ h2 {
 
 .primasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
-
-}
-.primasezione div {
-    flex-grow: 1;
+   
 }
 .primasezione img {
     width: 100%;
+    border-radius: 15px;
 }
-
+.primasezione p {
+    font-size: 10pt ;
+    line-height: 1.5;  
+}
 
 
 .secondasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.secondasezione div {
-    flex-grow: 1;
-}
+
 .secondasezione img {
     width: 100%;
+    border-radius: 25px;
+}
+.secondasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
 }
 
 
 
 .terzasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.terzasezione  div {
-    flex-grow: 1;
-}
 .terzasezione img {
     width: 100%;
+    border-radius: 25px;
 }
-
+.terzasezione p {
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
 
 
 .quartasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.quartasezione div {
-    flex-grow: 1;
-}
+
 .quartasezione img {
     width: 100%;
+    border-radius: 25px;
+}
+.quartasezione{
+    font-size: 10pt ;
+    line-height: 1.5; 
 }
 
 
 
 .quintasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.quintasezione div {
-    flex-grow: 1;
-}
+
 .quintasezione img {
     width: 100%;
+    border-radius: 25px;
 }
-
+.quintasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
 
 
 .sestasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
+}
 
-}
-.sestasezione div {
-    flex-grow: 1;
-}
 .sestasezione img {
     width: 100%;
+    border-radius: 25px;
+}
+.sestasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
 }
 
 
 
 .settimasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.settimasezione div {
-    flex-grow: 1;
-}
+
 .settimasezione img {
     width: 100%;
+    border-radius: 25px;
 }
-
+.settimasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
 
 
 .ottavasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.ottavasezione div {
-    flex-grow: 1;
-}
+
 .ottavasezione img {
     width: 100%;
+    border-radius: 25px;
+}
+.ottavasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
 }
 
 
 
 .nonasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
+}
 
-}
-.nonasezione div {
-    flex-grow: 1;
-}
 .nonasezione img {
     width: 100%;
+    border-radius: 25px;
 }
-
+.nonasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
 
 
 .decimasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
+}
 
-}
-.decimasezione div {
-    flex-grow: 1;
-}
 .decimasezione img {
     width: 100%;
+    border-radius: 25px;
+}
+.decimasezione p {
+    font-size: 10pt ;
+    line-height: 1.5; 
 }
 
 
 
 .undicesimasezione { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.undicesimasezione div {
-    flex-grow: 1;
-}
+
 .undicesimasezione img {
     width: 100%;
+    border-radius: 25px;
 }
+.undicesimasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
+
 
 
 
 .dodicesimasez { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
+}
 
-}
-.dodicesimasez div {
-    flex-grow: 1;
-}
 .dodicesimasez img {
     width: 100%;
+    border-radius: 25px;
 }
+.dodicesimasez p{
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
+
 
 
 
 .tredicesimasez { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.tredicesimasez div {
-    flex-grow: 1;
-}
+
 .tredicesimasez img {
     width: 100%;
+    border-radius: 25px;
 }
+.tredicesimasez p {
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
+
 
 
 
 .quattordicesimasez { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.quattordicesimasez div {
-    flex-grow: 1;
-}
+
 .quattordicesimasez img {
     width: 100%;
+    border-radius: 25px;
+}
+.quattordicesimasez p{
+    font-size: 10pt ;
+    line-height: 1.5; 
 }
 
 
 
 .quattordicesimasezplus { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
 
 }
-.quattordicesimasezplus div {
-    flex-grow: 1;
-}
+
 .quattordicesimasezplus img {
     width: 100%;
+    border-radius: 25px;
 }
+.quattordicesimasezplus p{
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
+
 
 
 
 .quindicesimasez { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
+}
 
-}
-.quindicesimasez div {
-    flex-grow: 1;
-}
 .quindicesimasez img {
     width: 100%;
+    border-radius: 25px;
 }
+.quartasezione p{
+    font-size: 10pt ;
+    line-height: 1.5; 
+}
+
+
 
 /* img a catena learnmore */
 .containerlearnmore { 
     display: flex;
-    width: 100%;
+    max-width: 900px;
+    margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
+}
 
-}
-.containerlearnmore div {
-    flex-grow: 1;
-}
 .containerlearnmore img {
     width: 100%;
+    border-radius: 25px;
 }
 
 /* img anni  */
 
 
-/* Stili generali */
-.timeline-button, .timeline-menu {
-    display: none;
-}
-
-@media screen and (max-width: 998px) {
-    body {
-        font-size: 16px;
-        line-height: 1.6;
-        padding-top: 70px;
-    }
-
-    header {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        z-index: 1000;
-        padding: 10px 20px;
-        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-        background: transparent;
-    }
-
-    .header-overlay span {
-        font-size: 8px;
-        color: black;
-    }
-
-    .left-nav {
-        align-items: center;
-        gap: 10px;
-        flex-wrap: wrap;
-    }
-
-    .left-nav li {
-        display: inline;
-    }
-
-    .left-nav li a {
-        font-size: 14px;
-        padding: 10px;
-    }
-
-    .title {
-        font-size: 40px;
-        padding-top: 100px;
-        text-align: center;
-    }
-
-    .title p {
-        font-size: 25px;
-    }
-
-    .timeline {
-        display: none;
-    }
-
-    .timeline-button {
-        display: block;
-        margin: 20px auto;
-        padding: 10px 20px;
-        font-size: 16px;
-        background-color: #007BFF; /* Colore del bottone */
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .timeline-button:hover {
-        background-color: #0056b3; /* Colore del bottone al passaggio del mouse */
-    }
-
-    .timeline-menu {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-        padding: 10px;
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 0.8); /* Sfondo trasparente */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .timeline-menu a {
-        text-decoration: none;
-        color: #007BFF;
-        font-weight: lighter;
-    }
-
-    .timeline-menu a:hover {
-        text-decoration: underline;
-    }
-
-    .testohistoryalto h1,
-    .titlehig,
-    .trasgrediscotitolo,
-    .lascuoladellessenziale,
-    .esteticatitolo {
-        font-size: 24px;
-        text-align: center;
-        padding: 0 10px;
-    }
-
-    .testohistorycentro p,
-    .trasgrediscotesto p,
-    .designertesto p,
-    .lascuoladellessenzialetesto p,
-    .esteticatesto p,
-    .testocontinuo1 {
-        font-size: 14px;
-        padding: 0 10px;
-    }
-
-    .container,
-    .containerlearnmore,
-    .container2,
-    .container3,
-    .primasezione,
-    .secondasezione,
-    .terzasezione,
-    .quartasezione,
-    .quintasezione,
-    .sestasezione,
-    .settimasezione,
-    .ottavasezione,
-    .nonasezione,
-    .decimasezione,
-    .undicesimasezione,
-    .dodicesimasez,
-    .tredicesimasez,
-    .quattordicesimasez,
-    .quindicesimasez {
-        flex-direction: column;
-        align-items: center;
-        padding: 0 10px;
-    }
-
-    .container div,
-    .containerlearnmore div,
-    .container2 div,
-    .container3 div,
-    .primasezione div,
-    .secondasezione div,
-    .terzasezione div,
-    .quartasezione div,
-    .quintasezione div,
-    .sestasezione div,
-    .settimasezione div,
-    .ottavasezione div,
-    .nonasezione div,
-    .decimasezione div,
-    .undicesimasezione div,
-    .dodicesimasez div,
-    .tredicesimasez div,
-    .quattordicesimasez div,
-    .quindicesimasez div {
-        margin: 10px 0;
-    }
-
-    .container img,
-    .containerlearnmore img,
-    .container2 img,
-    .container3 img,
-    .primasezione img,
-    .secondasezione img,
-    .terzasezione img,
-    .quartasezione img,
-    .quintasezione img,
-    .sestasezione img,
-    .settimasezione img,
-    .ottavasezione img,
-    .nonasezione img,
-    .decimasezione img,
-    .undicesimasezione img,
-    .dodicesimasez img,
-    .tredicesimasez img,
-    .quattordicesimasez img,
-    .quindicesimasez img {
-        width: 100%;
-        height: auto;
-        margin-top: 10px;
-    }
-
-    footer {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px 10px;
-    }
-
-    footer a {
-        font-size: 14px;
-    }
-}
-
-/* Additional styles for timeline button and menu functionality */
-.timeline-button.active + .timeline-menu {
-    display: flex;
-}
