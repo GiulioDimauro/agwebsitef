@@ -201,7 +201,7 @@ p {
 
 .agfronzoni {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     border-radius: 25px;
@@ -209,7 +209,7 @@ p {
 
 .container {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -227,7 +227,7 @@ p {
 
 .container2 {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -246,7 +246,7 @@ p {
 
 .container3 {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -304,7 +304,7 @@ p {
 
 .img9 img {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -330,7 +330,7 @@ p {
 
 .img49 img {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -347,7 +347,7 @@ p {
 
 .img52 img {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -364,7 +364,7 @@ h2 {
 
 .img53 img {
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -375,7 +375,7 @@ h2 {
 
 .primasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -393,7 +393,7 @@ h2 {
 
 .secondasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -413,7 +413,7 @@ h2 {
 
 .terzasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -431,7 +431,7 @@ h2 {
 
 .quartasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -451,7 +451,7 @@ h2 {
 
 .quintasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -470,7 +470,7 @@ h2 {
 
 .sestasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -489,7 +489,7 @@ h2 {
 
 .settimasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -508,7 +508,7 @@ h2 {
 
 .ottavasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -528,7 +528,7 @@ h2 {
 
 .nonasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -546,7 +546,7 @@ h2 {
 
 .decimasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -565,7 +565,7 @@ h2 {
 
 .undicesimasezione { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -586,7 +586,7 @@ h2 {
 
 .dodicesimasez { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -606,7 +606,7 @@ h2 {
 
 .tredicesimasez { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -627,7 +627,7 @@ h2 {
 
 .quattordicesimasez { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -647,7 +647,7 @@ h2 {
 
 .quattordicesimasezplus { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -668,7 +668,7 @@ h2 {
 
 .quindicesimasez { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -688,7 +688,7 @@ h2 {
 /* img a catena learnmore */
 .containerlearnmore { 
     display: flex;
-    max-width: 900px;
+    max-width: 100%;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -755,49 +755,8 @@ h2 {
         font-size: 25px;
     }
 
-    .timeline {
-        display: none;
-    }
 
-    .timeline-button {
-        display: block;
-        margin: 20px auto;
-        padding: 10px 20px;
-        font-size: 16px;
-        background-color: #007BFF; /* Colore del bottone */
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-        transition: background-color 0.3s;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .timeline-button:hover {
-        background-color: #0056b3; /* Colore del bottone al passaggio del mouse */
-    }
-
-    .timeline-menu {
-        display: none;
-        flex-direction: column;
-        align-items: center;
-        text-align: center;
-        gap: 10px;
-        padding: 10px;
-        border-radius: 8px;
-        background-color: rgba(255, 255, 255, 0.8); /* Sfondo trasparente */
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    }
-
-    .timeline-menu a {
-        text-decoration: none;
-        color: #007BFF;
-        font-weight: lighter;
-    }
-
-    .timeline-menu a:hover {
-        text-decoration: underline;
-    }
+    
 
     .testohistoryalto h1,
     .titlehig,
