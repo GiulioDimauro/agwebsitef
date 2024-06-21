@@ -781,7 +781,7 @@ h2 {
     .designer h2,
     .lascuoladellessenziale h1,
     .esteticatitolo h1 {
-        max-width: 400px;
+        max-width: 300px;
         margin: 0 auto;
         padding-top: 3%;
         font-size: 20pt;
@@ -789,7 +789,7 @@ h2 {
     }
 
     .citazione h2{
-        max-width: 400px;
+        max-width: 300px;
         margin: 0 auto;
         padding-top: 4%;
         padding-bottom: 4%;
@@ -808,7 +808,7 @@ h2 {
             font-size: 14px;
             padding-top: 3%;
             margin: 0 auto;
-            max-width: 400px; /* Esempio di larghezza massima del contenuto */
+            max-width: 300px; /* Esempio di larghezza massima del contenuto */
             margin-left: auto;
             margin-right: auto;
         }
