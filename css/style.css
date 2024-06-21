@@ -383,7 +383,7 @@ h2 {
 
 .primasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -401,7 +401,7 @@ h2 {
 
 .secondasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -421,7 +421,7 @@ h2 {
 
 .terzasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -439,7 +439,7 @@ h2 {
 
 .quartasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -459,7 +459,7 @@ h2 {
 
 .quintasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -478,7 +478,7 @@ h2 {
 
 .sestasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -497,7 +497,7 @@ h2 {
 
 .settimasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -516,7 +516,7 @@ h2 {
 
 .ottavasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -536,7 +536,7 @@ h2 {
 
 .nonasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -554,7 +554,7 @@ h2 {
 
 .decimasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -573,7 +573,7 @@ h2 {
 
 .undicesimasezione { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -594,7 +594,7 @@ h2 {
 
 .dodicesimasez { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -614,7 +614,7 @@ h2 {
 
 .tredicesimasez { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -635,7 +635,7 @@ h2 {
 
 .quattordicesimasez { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -655,7 +655,7 @@ h2 {
 
 .quattordicesimasezplus { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -676,7 +676,7 @@ h2 {
 
 .quindicesimasez { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
@@ -696,7 +696,7 @@ h2 {
 /* img a catena learnmore */
 .containerlearnmore { 
     display: flex;
-    max-width: 100%;
+    max-width: 1200px;
     margin: 0 auto;
     padding-top: 3%;
     gap: 5px;
