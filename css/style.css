@@ -37,6 +37,7 @@ header {
 .header-overlay {
     position: sticky;
     margin: 0 auto;
+    padding-top: 1%;
 }
 
 .header-overlay span {
@@ -69,14 +70,14 @@ nav.ex {
 .left-nav li a {
     text-decoration: none;
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     font-size: 14px;
 }
 
 .learn-more {
     text-decoration: none;
     color: white;
-    font-weight: lighter;
+    font-weight: normal;
     align-items: center;
     font-size: 13px;
     margin-right: 1vw;
@@ -891,12 +892,19 @@ h2 {
     footer {
         flex-direction: column;
         align-items: center;
-        padding: 20px 10px;
+        padding: 3% /* Ridurre il padding verticale */
     }
-
+    
     footer a {
-        font-size: 14px;
+        font-size: 16px;
+        line-height: 1; /* Modificare line-height se necessario */
+        margin: 0; /* Assicurarsi che non ci siano margini aggiuntivi */
     }
+    
+    footer p, footer h1, footer h2, footer h3, footer h4, footer h5, footer h6 {
+        margin: 0; /* Rimuovere i margini verticali degli altri elementi */
+    }
+    
 }
 
 /* Additional styles for timeline button and menu functionality */
