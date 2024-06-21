@@ -15,13 +15,36 @@
     <header>
         <nav class="ex">
             <ul class="left-nav">
-                <li><a href="index.html">AG FRONZONI WEBSITE</a></li>
-                <li><b><a href="history.html">History</a></b></li>
+               <b><li><a href="index.html">AG FRONZONI WEBSITE</a></li></b>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="hamburgertop"></span>
+                    <span class="hamburgerbottom"></span>
+                </div>
+                
+                
+                
+                <div class="menu">
+                    <ul>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="highlights.html">Highlights</a></li>
+                        <li><a href="learnmore.html">Learn More</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="linkdanonvedere">
+                <b><li><a href="history.html">History</a></li></b>
                 <li><a href="highlights.html">Highlights</a></li>
+                </div>
             </ul>
-            <a href="learnmore.html" class="learn-more">Learn more</a>
+            <div class="learn-more">
+            <li><a href="learnmore.html">Learn more</a></li>
+            </div>
         </nav>
     </header>
+    
+    
+   
     
         <div class="testohistoryalto">
             <h1>
@@ -178,5 +201,13 @@ Fronzoni raccoglieva le eredità intellettuali del passato, critico verso le ava
         });
     
         setInterval(updateTime, 1000);
+        function toggleMenu() {
+    var hamburger = document.querySelector('.hamburger');
+    var menu = document.querySelector('.menu');
+    hamburger.classList.toggle('open');
+    menu.classList.toggle('open');
+}
+        
+        
     </script>
 </html>

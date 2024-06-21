@@ -15,11 +15,32 @@
     <header>
         <nav class="ex">
             <ul class="left-nav">
-                <li><a href="index.html">AG FRONZONI WEBSITE</a></li>
+                <b><li><a href="index.html">AG FRONZONI WEBSITE</a></li></b>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="hamburgertop"></span>
+                    <span class="hamburgerbottom"></span>
+                </div>
+                
+                
+                
+                <div class="menu">
+                    <ul>
+                        
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="highlights.html">Highlights</a></li>
+                        <li><a href="learnmore.html">Learn More</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="linkdanonvedere">
                 <li><a href="history.html">History</a></li>
                 <li><b><a href="highlights.html">Highlights</a></b></li>
+                </div>
             </ul>
-            <a href="learnmore.html" class="learn-more">Learn more</a>
+            <div class="learn-more">
+            <li><a href="learnmore.html">Learn more</a></li>
+            </div>
         </nav>
     </header>
     <div class="titlehig">
@@ -131,6 +152,12 @@
             });
         
             setInterval(updateTime, 1000);
+            function toggleMenu() {
+    var hamburger = document.querySelector('.hamburger');
+    var menu = document.querySelector('.menu');
+    hamburger.classList.toggle('open');
+    menu.classList.toggle('open');
+}
             
             // script.js
     

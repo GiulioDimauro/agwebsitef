@@ -11,17 +11,37 @@
 </head>
 <body class="body">
     <div class="wrapper">
-        <div class="header-overlay"><span>AGFronzoniarchive</span></div>
-        <header>
-            <nav class="ex">
-                <ul class="left-nav">
-                    <li><a href="index.html">AG FRONZONI WEBSITE</a></li>
-                    <li><a href="history.html">History</a></li>
-                    <li><a href="highlights.html">Highlights</a></li>
-                </ul>
-                <b><a href="learnmore.html" class="learn-more">Learn more</a></b>
-            </nav>
-        </header>
+    <div class="header-overlay"><span>AGFronzoniarchive</span></div> 
+    <header>
+        <nav class="ex">
+            <ul class="left-nav">
+               <b><li><a href="index.html">AG FRONZONI WEBSITE</a></li></b>
+                <div class="hamburger" onclick="toggleMenu()">
+                    <span class="hamburgertop"></span>
+                    <span class="hamburgerbottom"></span>
+                </div>
+                
+                
+                
+                <div class="menu">
+                    <ul>
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="highlights.html">Highlights</a></li>
+                        <li><a href="learnmore.html">Learn More</a></li>
+                        
+                    </ul>
+                </div>
+
+                <div class="linkdanonvedere">
+                <li><a href="history.html">History</a></li>
+                <li><a href="highlights.html">Highlights</a></li>
+                </div>
+            </ul>
+            <div class="learn-more">
+            <b><li><a href="learnmore.html">Learn more</a></li></b>
+            </div>
+        </nav>
+    </header>
 
 <div class="esteticatitolo">
 <h1>
@@ -126,5 +146,11 @@ In sintesi, mentre Abloh ha saputo reinterpretare e adattare l'estetica minimali
         });
 
         setInterval(updateTime, 1000);
+        function toggleMenu() {
+    var hamburger = document.querySelector('.hamburger');
+    var menu = document.querySelector('.menu');
+    hamburger.classList.toggle('open');
+    menu.classList.toggle('open');
+}
     </script>
 </html>
