@@ -847,7 +847,7 @@ h2 {
         flex-direction: column;
         align-items: center;
         padding: 0 10px;
-        max-width: 200px;
+        max-width: 300px;
     }
 
     .container div,
@@ -870,7 +870,7 @@ h2 {
     .quattordicesimasez div,
     .quindicesimasez div {
         margin: 10px 0;
-        max-width: 200px;
+        max-width: 300px;
     }
 
     .container img,
@@ -895,7 +895,7 @@ h2 {
         width: 100%;
         height: auto;
         margin-top: 10px;
-        max-width: 200px;
+        max-width: 300px;
     }
 
 
