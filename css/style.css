@@ -756,8 +756,13 @@ h2 {
     }
 
     .left-nav li a {
-        font-size: 14px;
+        font-size: 8px;
         padding: 10px;
+    }
+    .learn-more{
+        font-size: 8px;
+        padding: 10px;
+
     }
 
     .title {
