@@ -1127,11 +1127,11 @@ h2 {
        
     }
     .open .hamburgertop {
-        transform: rotate(45,5deg) 
+        transform: rotate(-3,5deg) 
     }
     
     .open .hamburgerbottom {
-        transform: rotate(-45,5deg) 
+        transform: rotate(10,5deg) 
     }
     .linkdanonvedere{
     display: none;
