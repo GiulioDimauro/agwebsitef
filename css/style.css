@@ -996,7 +996,24 @@ h2 {
         margin-top: 10px;
         max-width: 300px;
     }
-
+    .primasezione p,
+    .secondasezione p,
+    .terzasezione p,
+    .quartasezione p,
+    .quintasezione p,
+    .sestasezione p,
+    .settimasezione p,
+    .ottavasezione p,
+    .nonasezione p,
+    .decimasezione p,
+    .undicesimasezione p,
+    .dodicesimasez p,
+    .tredicesimasez p,
+    .quattordicesimasez p,
+    .quindicesimasez p {
+        line-height: 1,6;
+        font-size: 10pt;
+    }
 
 /* Stili per la timeline */
 
